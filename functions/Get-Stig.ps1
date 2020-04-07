@@ -1,4 +1,4 @@
-function Get-Stig {
+function Get-StigFile {
     [CmdletBinding()]
     param (
         
