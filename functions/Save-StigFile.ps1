@@ -7,7 +7,7 @@ function Save-StigFile {
         $URI,
         # Parameter help description
         [Parameter(Mandatory)]
-        [System.IO.Path]
+        [String]
         $Path
     )
     
@@ -17,7 +17,8 @@ function Save-StigFile {
     
     process {
         foreach($Resource in $URI){
-            Invoke-WebRequest -Uri $Resource -OutFile $Path
+            $FileName = ($Resource -split "/")[-1]
+            Invoke-WebRequest -Uri $Resource -OutFile $Path\$FileName
         }
     }
     
