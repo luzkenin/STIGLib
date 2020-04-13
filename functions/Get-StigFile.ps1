@@ -18,7 +18,7 @@ function Get-StigFile {
                 [string]$Date = $null#(($Stig.outerHTML) | % { [regex]::matches( $_ , '(?<=<td class="updated_column">\s+)(.*?)(?=\s+</span>)' ) } | select -ExpandProperty value) #-replace "<span style=""display:none;"">",""
         
                 [PSCustomObject]@{
-                    Name = $Name
+                    Name = $Name -replace '[^ -x7e]',''
                     URI = $Stig.href
                     Version = $Version
                     Release = $Release
