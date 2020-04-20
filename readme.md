@@ -1,4 +1,6 @@
-[![Build status]([![Build status](https://ci.appveyor.com/api/projects/status/bp800wiaoyonpfpa?svg=true)](https://ci.appveyor.com/project/luzkenin/stiglib))](https://ci.appveyor.com/project/luzkenin/STIGLib)
+[![Build status](https://ci.appveyor.com/api/projects/status/bp800wiaoyonpfpa?svg=true)](https://ci.appveyor.com/project/luzkenin/STIGLib)
+[![PSGallery Version](https://img.shields.io/powershellgallery/v/STIGLib.png?style=flat&logo=powershell&label=PowerShell%20Gallery)](https://www.powershellgallery.com/packages/STIGLib)
+
 # STIGLib
 
 Get and Save STIG Benchmark files
