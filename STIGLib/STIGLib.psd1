@@ -8,7 +8,7 @@
 
 @{
     RootModule           = 'STIGLib.psm1'
-    ModuleVersion        = '0.1.0'
+    ModuleVersion        = '0.1.1'
     GUID                 = 'bdf751b3-4e95-4384-b847-8696bc1b7d5a'
     Author               = 'Joseph Warren'
     CompanyName          = 'No'
