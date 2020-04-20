@@ -1,0 +1,9 @@
+site_name: STIGLib
+repo_url: https://github.com/luzkenin/STIGLib
+theme: readthedocs
+pages:
+  - Home: index.md
+  - STIGLib Basics:
+    - What is STIGLib: about.md
+    - Quick Start: Quick-Start-Installation-and-Example.md
+  - Acknowledgements: acknowledgements.md

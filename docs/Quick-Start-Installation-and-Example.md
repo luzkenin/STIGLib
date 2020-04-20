@@ -1,5 +1,7 @@
 # Installing STIGLib
 
-    # You can install STIGLib from the Powershell Gallery using
+    # Install STIGLib from the PowerShell Gallery
     Find-Module STIGLib | Install-Module
+
+    #Import Module
     Import-Module STIGLib
